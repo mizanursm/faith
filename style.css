@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    font-family: roboto;
+}
+
+.halfwidth{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.halfwidth img {
+    width: 100%;
+}
+
+h1{
+    font-size: 45px;
+}
+#textHlight{
+    color: rgb(18, 114, 61);
+}
+section{height:500px;
+   margin-bottom: 200px;
+}
+p{
+    color: gray;
+    line-height: 1.5;
+    padding: 20px 0px;
+    text-align: justify;
+   
+}
+
+.topbanner{
+    background-image: url(image/topbanner.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+}
+a{
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(18, 114, 61), rgb(146, 5, 123));
+    padding: 10px 30px;
+    color: white;
+    font-weight:700;
+    border-radius: 5px;
+}
+a:hover{
+    text-decoration: none;
+    background: linear-gradient(90deg, rgb(11, 68, 37), rgb(77, 2, 64));
+    padding: 10px 30px;
+    color: white;
+    font-weight:700;
+    border-radius: 5px;
+}
+h2{
+    font-size: 30px;
+    border-bottom:  3px solid gray;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+.exparea div{
+    border-left: 5px solid olivedrab;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px gray;
+    height: 200px;
+}
